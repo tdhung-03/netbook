@@ -1,0 +1,59 @@
+.footer {
+  background-color: #2b2b39;
+  padding: 80px 85px;
+  &-container {
+    display: flex;
+    gap: 0 163px;
+  }
+  &-list {
+    display: flex;
+    gap: 0 98px;
+  }
+  &-item {
+    white-space: nowrap;
+  }
+  &-title {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 22px;
+  }
+  &-choice {
+    li {
+      line-height: 46px;
+      font-size: 16px;
+      color: #e7e7e7;
+      font-weight: 400;
+    }
+  }
+  &-subscribe {
+    width: 100%;
+    max-width: 339px;
+    &-title {
+      line-height: 32px;
+      margin-bottom: 18px;
+    }
+  }
+  &-desc {
+    line-height: 28px;
+    margin-bottom: 32px;
+    color: #e7e7e7;
+  }
+  &-mail {
+    display: flex;
+    border: 1px solid #ffffffd9;
+    border-radius: 12px;
+    .button {
+      padding: 16px 24px;
+      background-color: white !important;
+      color: #2b2b39;
+    }
+  }
+  &-field {
+    width: 100%;
+    padding: 0 0 0 24px;
+    border: none;
+    background-color: transparent;
+  }
+}

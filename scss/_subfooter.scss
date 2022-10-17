@@ -1,0 +1,9 @@
+.subfooter {
+  background-color: #20202d;
+  padding: 31px 0;
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

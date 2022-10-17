@@ -1,0 +1,77 @@
+.member {
+  padding: 84px 0;
+  margin-bottom: 45px;
+  &-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &-content {
+    width: 100%;
+    max-width: 455px;
+    text-align: center;
+    .link {
+      font-size: 18px;
+    }
+  }
+  &-title {
+    margin-top: 10px;
+    margin-bottom: 18px;
+  }
+  &-desc {
+    margin-bottom: 38px;
+  }
+  &-list {
+    display: flex;
+    gap: 0 30px;
+  }
+  &-box {
+    background-color: rgb(235, 242, 250);
+    border-radius: 14px;
+    margin-bottom: 44px;
+    padding: 8px 5px;
+  }
+  &-button {
+    display: inline-block;
+    padding: 20px 50px;
+    color: $text-color;
+    &-active {
+      color: white;
+      background-color: $primary-color;
+      box-shadow: rgba(106, 115, 187, 0.742) 0px 30px 50px -10px;
+    }
+  }
+  &-button:hover {
+    color: white;
+    background-color: $primary-color;
+    box-shadow: rgba(106, 115, 187, 0.742) 0px 30px 50px -10px;
+  }
+  &-item {
+    padding: 30px 50px;
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: rgba(181, 181, 185, 0.742) 0px 30px 50px -10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &-info {
+    text-align: center;
+  }
+  &-avatar {
+    margin-bottom: 46px;
+    img {
+      border-radius: 50%;
+    }
+  }
+  &-name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    color: $heading-color;
+    margin-bottom: 14px;
+  }
+  &-nickname {
+    line-height: 16px;
+  }
+}

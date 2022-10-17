@@ -1,0 +1,27 @@
+.application {
+  margin-bottom: 96px;
+  background-color: #e5f0fd;
+  padding: 122px 0;
+  &-container {
+    display: flex;
+    align-items: center;
+    gap: 0 200px;
+  }
+  &-content {
+    width: 100%;
+    max-width: 350px;
+    .link {
+      font-size: 18px;
+    }
+    img {
+      margin-right: 10px;
+    }
+  }
+  &-title {
+    margin-top: 10px;
+    margin-bottom: 18px;
+  }
+  &-desc {
+    margin-bottom: 36px;
+  }
+}

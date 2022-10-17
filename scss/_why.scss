@@ -1,0 +1,57 @@
+.why {
+  padding: 34px 0;
+  margin-bottom: 21px;
+  &-container {
+    display: flex;
+    align-items: center;
+    gap: 0 200px;
+  }
+  &-content {
+    width: 100%;
+    max-width: 406px;
+  }
+  &-answer {
+    color: $primary-color;
+  }
+  &-title {
+    margin-top: 10px;
+    margin-bottom: 16px;
+    line-height: 48px;
+  }
+  &-desc {
+    margin-bottom: 36px;
+  }
+  &-image {
+    display: flex;
+    align-items: center;
+    gap: 0 29px;
+  }
+  &-left {
+    img {
+      width: 270px;
+      height: 368px;
+    }
+  }
+  &-right {
+    img {
+      width: 265px;
+      height: 238px;
+      margin-bottom: 32px;
+      border-radius: 10px;
+    }
+  }
+  &-list {
+    li {
+      display: flex;
+      align-items: center;
+      img {
+        margin-right: 17px;
+      }
+      margin-bottom: 16px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 18px;
+      color: $heading-color;
+    }
+  }
+}

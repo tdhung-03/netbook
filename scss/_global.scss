@@ -1,0 +1,56 @@
+.wrapper {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+body {
+  line-height: 1;
+  font-family: $font;
+  color: $text-color;
+  font-size: $text-size;
+  background-color: white;
+  font-weight: 400;
+}
+.button {
+  border-radius: 14px;
+  font-weight: 500;
+  &--small {
+    padding: 18px 43px;
+  }
+  &--medium {
+    padding: 24px 42px;
+  }
+  &--primary {
+    background-color: $primary-color;
+    color: white;
+  }
+  &--outline {
+    background-color: transparent;
+    color: $primary-color;
+    border: 1px solid $primary-color;
+  }
+}
+.heading {
+  font-weight: 700;
+  color: $heading-color;
+  font-size: 36px;
+  line-height: 48px;
+}
+.text {
+  font-weight: 400;
+  color: $text-color;
+  font-size: $text-size;
+  line-height: 28px;
+}
+.link {
+  color: $primary-color;
+  font-weight: 500;
+  img {
+    margin-left: 8px;
+  }
+}

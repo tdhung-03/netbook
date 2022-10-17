@@ -1,0 +1,38 @@
+.intro {
+  padding-bottom: 83px;
+  &-container {
+    display: flex;
+    align-items: center;
+    gap: 0 69px;
+  }
+  &-content {
+    width: 100%;
+    max-width: 505px;
+    a {
+      font-size: 14px;
+      font-weight: 400;
+      margin-right: 18px;
+    }
+  }
+  &-community {
+    padding: 12px 30px;
+    color: $primary-color;
+    border-radius: 8px;
+    background-color: rgba(212, 231, 254, 1);
+  }
+  &-title {
+    margin-top: 34px;
+    margin-bottom: 18px;
+    font-size: 56px;
+    line-height: 66px;
+  }
+  &-desc {
+    margin-bottom: 68px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  &-image {
+    width: 100%;
+    max-width: 585px;
+  }
+}

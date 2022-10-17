@@ -1,0 +1,31 @@
+.nav {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(33, 123, 244, 0.1);
+  &-container {
+    display: flex;
+    align-items: center;
+  }
+  &-logo {
+    margin-right: 72px;
+  }
+  &-list {
+    display: flex;
+    margin-right: 380px;
+    gap: 0 32px;
+    li {
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+  &-search {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    max-width: 100px;
+    margin-right: 47px;
+  }
+  &-login {
+    font-weight: 600;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,67 @@
+.achievement {
+  padding: 75px 0;
+  margin-bottom: 55px;
+  &-container {
+    display: flex;
+    align-items: flex-start;
+  }
+  &-rating,
+  &-awards {
+    margin-right: 24px;
+    width: 100%;
+    max-width: 272px;
+    padding: 40px 18px 40px 44px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #755a5a19;
+    border-radius: 14px;
+    font-weight: 500;
+    box-shadow: rgba(158, 152, 152, 0.742) 0px 30px 54px -5px;
+  }
+  &-name {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 24px;
+    img {
+      margin-right: 10px;
+    }
+  }
+  &-trash {
+    transform: translateX(-20px);
+    margin-bottom: 25px;
+    img {
+      margin-right: 16px;
+    }
+    strong {
+      font-weight: 600;
+      color: $primary-color;
+    }
+  }
+  &-awards {
+    .link {
+      color: #4a4a56;
+    }
+  }
+  &-content {
+    width: 100%;
+    max-width: 380px;
+    margin-left: 69px;
+    .button {
+      display: inline-block;
+      padding: 21px 40px;
+    }
+  }
+  &-our {
+    font-size: 18px;
+  }
+  &-title {
+    margin-top: 10px;
+    margin-bottom: 18px;
+  }
+  &-desc {
+    margin-bottom: 38px;
+  }
+}

@@ -1,0 +1,44 @@
+.new {
+  padding: 34px 0;
+  margin-bottom: 96px;
+  &-content {
+    margin-bottom: 80px;
+    text-align: center;
+  }
+  &-title {
+    margin-top: 10px;
+  }
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 75px;
+  }
+  &-image {
+    img {
+      margin-bottom: 25px;
+    }
+  }
+  &-desc {
+    margin-left: 15px;
+    display: flex;
+    img {
+      width: 39px;
+      margin-bottom: 60px;
+      height: 100%;
+      margin-right: 14px;
+    }
+    align-items: center;
+  }
+  &-subtitle {
+    p {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 32px;
+      color: $heading-color;
+      margin-bottom: 24px;
+    }
+    a {
+      color: #217bf4;
+    }
+  }
+}
